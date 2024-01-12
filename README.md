@@ -64,5 +64,23 @@ Bond Simulation
 
 ![image](https://github.com/loganprob/junk_drawer/assets/56107919/a6526392-872f-4299-b634-e0e2d0500581)
 
+</details>
 
+
+<details>
+<summary>
+Google Database/API
+</summary>
+
+### [Google Database/API](/google_database_api)
+
+- a huge undertaking... still very much a work-in-progress with not a ton of public progress to show
+- this project has already tought me a ton about technical areas of which I had no prior knowledge or experience, like no-SQL database management and asynchronous programming
+- more fundamentally, this is really the first project I've worked on that doesn't run solely on my machine with my expected inputs (and my ability to step in and make fixes when things go wrong), meaning lots and lots of thinking about potential problems, error handling, and ["failing eloquently"](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+- another related lesson I learned was that, while it is fun, trying to write code as cleverly and concisely as possible is not the end goal. The poor soul (me) that has to continue developing and troubleshooting previously written code (by me) appreciates clarity far more
+- also learned the hard way, suprisingly, that SEC filings are the wild-west; every typo (misspelled tickers) and schema invalidation (holdings reports that loop back to themselves) that you can imagine, currently exists in SEC filings. The actual prevelance of errors is probably very low, but when you're trying to write rules for processing tens of thousands of securities, they stick out and break your code
+- files in this folder contain miscellaneous (non-linear) building and testing
+- there currently exists a live version of the API that (so far) will reliably return basic security information and fund holdings, but given the difficulties outlined above and the fact that my credit card is tied to its usage, I'm going to keep the details under wraps for now
+- currently upgrading my desktop's CPU and RAM primarily to iterate local development more rapidly on this project... it's a long-term investment
+  
 </details>
