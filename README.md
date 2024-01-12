@@ -46,3 +46,23 @@ Risk Playground
 - this was a one-day project (and obviously, not very aethetically appealing) to test implementation. I really like the idea, and would like to return to it one day. Maybe just a standalone website
 
 </details>
+
+
+<details>
+<summary>
+Bond Simulation
+</summary>
+
+### [Bond Simulation](/bond_simulation.ipynb)
+
+- this was a one-off project for a specific portfolio to simulate how it might perform vs some other portfolio under various future yield curve scenarios
+- ipython widgets, very ugly, but a fun proof-of-concept to build further functionality upon
+- pursuing better performance and user experience, this turned into a javascript [project](https://loganprob.github.io/yieldcurve.html) with much better graphics and controls
+- had started building JS functionaly to allow for drag and drop loading different CSV holdings exports from custodians into the tool + manual bond entry, but development slowed down because javascript is awful
+- like the "risk playground" project, it would be cool to finish this as a standalone website
+- Example of the original jupyter notebook (lots happening!):
+
+![image](https://github.com/loganprob/junk_drawer/assets/56107919/a6526392-872f-4299-b634-e0e2d0500581)
+
+
+</details>
